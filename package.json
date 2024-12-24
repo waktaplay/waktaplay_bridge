@@ -1,0 +1,40 @@
+{
+  "name": "bridge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "preact": "^10.19.5",
+    "preact-async-route": "^2.2.1",
+    "preact-router": "^4.1.2",
+    "styled-components": "^6.1.13",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@preact/preset-vite": "^2.8.1",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint": "^9.17.0",
+    "eslint-config-preact": "^1.3.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^6.0.5",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "packageManager": "pnpm@10.0.0-rc.0+sha512.bce495587126f9a37d64150bf80dcf9bd96f0d64cfd450c9b1a7e5bf2cfc81aef3d50178f259855351c872905a240861a55031652c81e8a11665bfa65f6a1dc2"
+}
