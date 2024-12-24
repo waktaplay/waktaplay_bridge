@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  styled-components: ^5
+  styled-components: ^6.0.0
 
 importers:
 
@@ -24,7 +24,7 @@ importers:
         specifier: ^4.1.2
         version: 4.1.2(preact@10.25.3)
       styled-components:
-        specifier: ^6.1.13
+        specifier: ^6.0.0
         version: 6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       vite-tsconfig-paths:
         specifier: ^5.1.4
