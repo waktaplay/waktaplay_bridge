@@ -24,7 +24,7 @@ export default function PlayDeeplink({
       setDidRetry(true)
     }
 
-    window.location.assign(`waktaplay://play?v=${id}`)
+    window.location.assign(`waktaplay://music/${id}`)
   }, [id, retry])
 
   return (
@@ -58,7 +58,7 @@ export default function PlayDeeplink({
             <HelpButton
               onClick={() => {
                 setDidRetry(true)
-                window.location.assign(`waktaplay://play?v=${id}`)
+                window.location.assign(`waktaplay://music/${id}`)
               }}
             >
               앱 실행하기
